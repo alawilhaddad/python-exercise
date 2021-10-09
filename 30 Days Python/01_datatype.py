@@ -3,8 +3,7 @@
 i = 4
 d = 4.0
 s = 'HackerRank '
-
-if __name__ == "___main__":
+if __name__ == '__main__':
     # Declare second integer, double, and String variables.
     x, y, z = int(input()), float(input()), input()
     # Print the sum of both integer variables on a new line.
