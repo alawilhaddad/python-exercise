@@ -1,3 +1,5 @@
+#https://www.hackerrank.com/challenges/30-2d-arrays/problem
+
 def max_hourglass(arr):
     max = 0
     for i in range(len(arr)-2):
