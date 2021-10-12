@@ -25,7 +25,6 @@ class Solution:
         # Complete this method
 
 
-
 if __name__ == "__main__":
     mylist = Solution()
     T = int(input())
