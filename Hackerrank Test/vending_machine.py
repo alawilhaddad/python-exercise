@@ -1,10 +1,3 @@
-import math
-import os
-import random
-import re
-import sys
-
-
 class VendingMachine:
     # Implement the VendingMachine here
     def __init__(self, item, price):
@@ -21,7 +14,6 @@ class VendingMachine:
             raise ValueError("Not enough items in the machine")
         elif total_price > money:
             raise ValueError("Not enough coins")
-
 
 
 if __name__ == '__main__':
