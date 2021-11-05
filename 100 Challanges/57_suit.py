@@ -21,4 +21,4 @@ if __name__ == "__main__":
         condition = "win"
     elif player == "Scissors" and computer == "Rock":
         condition = "lose"
-    print(f"{condition.title()}! Your opponent choose {computer}")
+    print(f"{condition.title()}! Your opponent choose '{computer}'")
