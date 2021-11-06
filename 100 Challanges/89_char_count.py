@@ -1,6 +1,5 @@
 if __name__ == "__main__":
     file_path = '89_char_count.txt'
-    frequency = {}
 
     with open(file_path) as file:
         lines = list(map(lambda x: x.rstrip("\n"), file.readlines()))
