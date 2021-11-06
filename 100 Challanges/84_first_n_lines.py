@@ -7,7 +7,7 @@ if __name__ == "__main__":
         lines = file.readlines()
         lines_num = len(file.readlines())
 
-    if n < lines_num:
+    if n > lines_num:
         for i in range(n):
             print(lines[i].rstrip('\n'))
 
