@@ -12,4 +12,4 @@ if __name__ == "__main__":
             print(lines[i].rstrip('\n'))
 
     else:
-        print("Please enter a valid value. The file has 4 lines. ")
+        print(f"Please enter a valid value. The file has {lines_num} lines. ")
