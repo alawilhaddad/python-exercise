@@ -6,11 +6,11 @@ def guessing_game(s=0):
     while s != answer:
         guess = int(input("Input your guess: "))
         if guess < answer:
-            print("Too small")
+            print(f"{guess} is too small")
         elif guess > answer:
-            print("Too big")
+            print(f"{guess} is too big")
         elif guess == answer:
-            print("Just Right")
+            print(f"{guess} is just right")
             break
 
 
