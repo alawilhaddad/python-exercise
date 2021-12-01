@@ -1,7 +1,7 @@
 import random
 
 
-def guessing_game(s=0):
+def guessing_game():
     answer = random.randint(1, 101)
     chances = 3
     condition = False
