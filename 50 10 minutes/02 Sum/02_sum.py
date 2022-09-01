@@ -1,4 +1,4 @@
-def my_sum(*numbers):
+def my_sum(numbers):
     answer = 0
     for number in numbers:
         answer += number
@@ -6,4 +6,5 @@ def my_sum(*numbers):
 
 
 if __name__ == "__main__":
-    print(my_sum(10, 20, 30))
+    print(my_sum(input("input numbers: ").split(" ")))
+    
